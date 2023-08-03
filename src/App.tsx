@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import {useState} from 'react';
 import Header from "./components/Header/Header.tsx";
 import PostList from "./components/PostList/PostList.tsx";
 import Modal from './components/Modal/Modal.tsx';
