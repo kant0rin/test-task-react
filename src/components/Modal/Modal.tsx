@@ -1,5 +1,5 @@
 import React from 'react';
-import * as classNames from "classnames";
+import classNames from 'classnames';
 import CrossIcon from "../ui/icons/CrossIcon.tsx";
 
 interface OwnProps{

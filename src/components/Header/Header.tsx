@@ -3,7 +3,7 @@ import LogoIcon from "../ui/icons/LogoIcon.tsx";
 import SearchIcon from "../ui/icons/SearchIcon.tsx";
 import cl from './Header.module.scss'
 import BottomArrowIcon from "../ui/icons/BottomArrowIcon.tsx";
-import * as classNames from "classnames";
+import classNames from 'classnames';
 import RightArrowIcon from "../ui/icons/RightArrowIcon.tsx";
 import BurgerMenuIcon from "../ui/icons/BurgerMenuIcon.tsx";
 import CrossIcon from "../ui/icons/CrossIcon.tsx";
