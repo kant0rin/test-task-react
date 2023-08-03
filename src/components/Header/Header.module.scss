@@ -1,0 +1,36 @@
+.nav__link {
+  &:hover {
+    .hovered_menu{
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+}
+
+.hovered_menu {
+  padding: 1.25rem;
+  border: 1px solid #E9E9E9;
+  position: absolute;
+  min-width: 170px;
+  font-weight: 400 ;
+  font-size: 0.85rem;
+  background: white;
+  top: 36px;
+  left: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.hovered_menu__text {
+  transform: translateX(0);
+  transition: 0.3s;
+  &:hover {
+    transform: translateX(0.5rem);
+    color: #969696;
+
+  }
+}
